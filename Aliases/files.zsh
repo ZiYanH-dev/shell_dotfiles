@@ -7,16 +7,12 @@ alias docs='cd ~/Documents'
 alias trial='cd ~/Desktop/trial'
 alias tri=trial
 alias whatever='cd ~/Desktop/whatever'
+alias clone='cd /Users/jasonhuang/Desktop/trial/clone_projects'
 alias .brew='cd /opt/homebrew'
 
 
-
-alias c.='code .'
-alias o.='open .'
 alias wh=which
 
-alias py='python3.13'
-alias python='python3.13'
 
 # Better ls
 alias ll='ls -lha'
@@ -68,7 +64,13 @@ alias ql='qlmanage -p'
 
 # Copy current path to clipboard
 alias copypath='pwd | pbcopy'
+alias cpath=copypath
 alias copyfile='cat $1 | pbcopy'
+
+# Copy text of last command (safe, no error)
+alias ccmd='fc -ln -1 | pbcopy'
+# Re-run last command, print output to screen + copy output
+alias cout='eval "$(fc -ln -1)" | tee >(pbcopy)'
 
 # Quick edit
 alias zshrc='code ~/.zshrc'

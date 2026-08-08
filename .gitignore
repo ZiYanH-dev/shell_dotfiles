@@ -1,5 +1,6 @@
 # 敏感配置文件（包含 API keys）
 api-keys.zsh
+Aliases/env.local.zsh
 api_keys/
 .env
 .secrets
@@ -7,6 +8,8 @@ api_keys/
 *.pem
 *.p12
 *.pfx
+
+llm_docs
 
 # IDE
 .vscode/

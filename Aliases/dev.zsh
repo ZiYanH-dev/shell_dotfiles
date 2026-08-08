@@ -7,11 +7,14 @@ alias npmt='npm test'
 alias npmb='npm run build'
 alias npml='npm run lint'
 alias npmd='npm run dev'
+
 alias yarni='yarn install'
 alias yarna='yarn add'
 alias yarnad='yarn add -D'
 alias yarnr='yarn run'
 
+alias py='python3.13'
+alias python=‘python3.13’
 alias pnpi='pnpm install'
 alias pnpmr='pnpm run'
 alias pip='pip3.13'

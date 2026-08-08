@@ -61,7 +61,7 @@ alias grsh='git reset --hard'            # Reset to commit (destructive)
 alias grss='git reset --soft'            # Reset to commit (keep changes)
 alias grev='git revert'                  # Create undo commit
 
-# ---- Cherry-pick & Others ----
+# ---- Cherry-pick & Others ----    
 alias gcp='git cherry-pick'              # Cherry-pick commit
 alias gbl='git blame'                    # Show file line authors
 alias gmv='git mv'                       # Move/rename file
