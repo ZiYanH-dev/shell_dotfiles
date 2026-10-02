@@ -9,7 +9,7 @@ api_keys/
 *.p12
 *.pfx
 
-llm_docs
+llm_docs/
 
 # IDE
 .vscode/

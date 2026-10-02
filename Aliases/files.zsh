@@ -7,16 +7,29 @@ alias docs='cd ~/Documents'
 alias trial='cd ~/Desktop/trial'
 alias tri=trial
 alias whatever='cd ~/Desktop/whatever'
-alias clone='cd /Users/jasonhuang/Desktop/trial/clone_projects'
+alias shit=whatever
+alias clone='cd ~/Desktop/whatever/clone-project'
+alias src='cd /Users/jasonhuang/Desktop/learning-resources'
+alias leetcode='cd /Users/jasonhuang/Desktop/random_code/coding_pra'
+
 alias .brew='cd /opt/homebrew'
 
+alias obs='cd ~/Documents/Obsidian_Vault'
+alias lec='cd ~/Desktop/lecture_notes'
+alias aipro='cd ~/Desktop/trial/ai_trial/projects'
+alias imp='cd ~/Desktop/important'
+alias pa='cd /Users/jasonhuang/Desktop/programming_assignment'
+
+
+alias logisim='java -jar /Applications/Logisim.app/Contents/Resources/Java/logisim.jar'
 
 alias wh=which
+alias fl='file'
 
 
 # Better ls
-alias ll='ls -lha'
-alias la='ls -A'
+alias ll='ls -lhaS'
+alias la='ls -AF'
 alias l='ls -CF'
 alias l.='ls -d .*'
 alias lt='ls -lht'
@@ -30,6 +43,8 @@ alias ...='cd ../..'
 alias ....='cd ../../..'
 alias .....='cd ../../../..'
 alias -- -='cd -'
+alias /='cd /'
+
 
 # Recursively delete (safer than raw rm -rf)
 alias rmd='rm -rf'
@@ -38,6 +53,7 @@ alias rmd='rm -rf'
 alias md='mkdir -p'
 alias rd='rmdir'
 alias t='touch'
+alias cpr='cp -r'
 
 # Find files quickly
 alias f='find . -name'
@@ -73,5 +89,5 @@ alias ccmd='fc -ln -1 | pbcopy'
 alias cout='eval "$(fc -ln -1)" | tee >(pbcopy)'
 
 # Quick edit
-alias zshrc='code ~/.zshrc'
+alias zshrc='s ~/.zshrc'
 alias reload='source ~/.zshrc'

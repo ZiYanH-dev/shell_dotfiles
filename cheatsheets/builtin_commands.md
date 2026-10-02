@@ -19,15 +19,15 @@
 
 ## 变量操作
 
-| 命令 | 说明 | 示例 |
-|------|------|------|
-| `export` | 导出环境变量（子进程可见） | `export PATH=$PATH:/usr/local/bin` |
-| `typeset` | 声明变量属性 | `typeset -i num=42`（整数） |
-| `local` | 声明函数内局部变量 | `local name="test"` |
-| `readonly` | 设为只读 | `readonly PI=3.14` |
-| `unset` | 删除变量 | `unset MY_VAR` |
-| `declare` | 同 typeset（bash 兼容） | — |
-| `printenv` | 打印环境变量 | `printenv PATH` |
+| 命令         | 说明                 | 示例                                 |
+| ---------- | ------------------ | ---------------------------------- |
+| `export`   | 导出环境变量（子进程可见）      | `export PATH=$PATH:/usr/local/bin` |
+| `typeset`  | 声明变量属性             | `typeset -i num=42`（整数）            |
+| `local`    | 声明函数内局部变量          | `local name="test"`                |
+| `readonly` | 设为只读               | `readonly PI=3.14`                 |
+| `unset`    | 删除变量               | `unset MY_VAR`                     |
+| `declare`  | 同 typeset（bash 兼容） | —                                  |
+| `printenv` | 打印环境变量             | `printenv PATH`                    |
 
 ### typeset 常用选项
 

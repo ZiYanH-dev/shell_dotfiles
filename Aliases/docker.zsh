@@ -6,15 +6,19 @@
 alias d='docker'                         # Docker shorthand
 alias dcom='docker-compose'              # Docker Compose shorthand
 
+# image aliases
+alias dis='docker images'                 # List images
+alias di='docker image'                  # Docker image shorthand
+
 # ---- Container Info ----
 alias dps='docker ps'                    # List running containers
 alias dpsa='docker ps -a'                # List all containers
-alias di='docker images'                 # List images
 alias dins='docker inspect'              # Low-level info on object
 alias dtop='docker top'                  # Running processes in container
 alias dstat='docker stats'               # Live resource usage
 
 # ---- Container Execution ----
+alias dco='docker container'              # Docker container shorthand
 alias dex='docker exec -it'              # Interactive exec into container
 alias dlog='docker logs'                 # Container logs
 alias dlogf='docker logs -f'             # Follow container logs

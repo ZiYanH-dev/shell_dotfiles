@@ -17,7 +17,8 @@ gete() {
     return 1
   fi
 
-  printf '%s\n' "$var_value"
+  # printf '%s\n' "$var_value"
+  echo 'copy successful'
 
   # 自动拷贝到剪贴板（macOS: pbcopy, Linux: xclip/xsel）
   if (( $+commands[pbcopy] )); then
