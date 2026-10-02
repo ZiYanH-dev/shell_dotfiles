@@ -10,7 +10,6 @@ zsh/
 ├── api_keys/             # API Key 管理
 ├── cmd_help/             # 命令帮助文档
 ├── functions/            # 自定义函数
-├── llm_docs/             # LLM 相关文档
 ├── loader.zsh            # 统一加载器
 ├── README.md             # 说明文档
 └── .gitignore            # Git 忽略规则
